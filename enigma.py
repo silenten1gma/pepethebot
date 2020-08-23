@@ -69,4 +69,4 @@ async def ban(ctx, member : discord.Member, * , reason=None):
     await member.ban(reason=reason) 
 
 #this is my special token every bot has one, get yours.
-client.run('NzQ2OTg4MDY2Njg1ODQ1NTY1.X0IU2Q.M1wcs8SZYIMhb-cBvgJClemo71s')
+client.run('')
