@@ -45,11 +45,8 @@ async def can_i(ctx,*,question):
 #spams input
 @client.command()
 async def spam(ctx,*,question):
-    await ctx.send(f'{question}') 
-    await ctx.send(f'{question}') 
-    await ctx.send(f'{question}') 
-    await ctx.send(f'{question}') 
-    await ctx.send(f'{question}') 
+    for i in range(5):
+            await ctx.send(f'{question}') 
 
 
 #deletes messages adding an amount is optional, if it's not set it deletes 10 messages
@@ -69,4 +66,5 @@ async def ban(ctx, member : discord.Member, * , reason=None):
     await member.ban(reason=reason) 
 
 #this is my special token every bot has one, get yours.
+
 client.run('')
