@@ -27,7 +27,7 @@ async def tell_me(ctx,*,question):
         "yes",
         "no",
         "ofc",
-        "look at dis nigga ... ofc not, tf",
+        "look at dis dood ... ofc not, tf",
         "idk idc, I'm just a bot",
         "lmfao"]
 
@@ -37,10 +37,10 @@ async def tell_me(ctx,*,question):
 @client.command()
 async def can_i(ctx,*,question):
     responses = [
-        "rak f dz menk sah",
-        "inchallah b rebi, lol",
-        "possible hbb akhdem telha9",
-        "aya nod berka men dreams taw3k"]
+        "you know you're in Algeria, right?",
+        "by the will of Allah",
+        "possible",
+        "stop dreaming"]
     await ctx.send(f'{random.choice(responses)}')
 #spams input
 @client.command()
